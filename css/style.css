@@ -47,7 +47,7 @@ header p{
 /* MAIN */
 
 .container{
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   width: 65%;
   min-width: 450px;
   margin: 60px auto;
@@ -68,16 +68,44 @@ header p{
   --widthA: calc(100% - 90px);
   width: calc(var(--widthA) / 3);
 
-  min-width: 300px;
-  height: 100px;
+  min-width: 350px;
 
   margin: 0 15px 50px 15px;
+
+  height: 100px;
 }
 
 .card-image{
-  height: 100%;
+  width: 100px;
 }
 
 .card-image img{
-  height: 100%;
+  width: 100%;
 }
+
+.card-text{
+  padding: 10px 15px;
+}
+
+.card-text span{
+  color: white;
+  display: block;
+  text-align: left;
+  padding-bottom: 4px;
+}
+
+.card-text .name{
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.card-text .mail a{
+  color: #2fbdec;
+  text-decoration: none;
+}
+
+.card-text .mail a:visited{
+  color: #2fbdec;
+}
+
