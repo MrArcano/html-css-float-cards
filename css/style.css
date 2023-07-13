@@ -32,3 +32,11 @@ header p{
 
 /* MAIN */
 
+.container{
+  background-color: antiquewhite;
+  width: 65%;
+  margin: 60px auto;
+  height: 200px;
+  text-align: center;
+  font-size: 18px;
+}
