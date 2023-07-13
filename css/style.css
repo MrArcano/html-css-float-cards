@@ -9,6 +9,10 @@ body{
   font-family: 'Fredoka', sans-serif;
 }
 
+img{
+  max-height: 100%;
+}
+
 /* 
   COLORI UTILI
   color link: #4fbeca
@@ -45,20 +49,35 @@ header p{
 .container{
   background-color: antiquewhite;
   width: 65%;
+  min-width: 450px;
   margin: 60px auto;
   text-align: center;
   font-size: 18px;
+
 }
 
 .cards{
   margin-top: 50px;
-  padding: 40px;
+  padding: 25px;
 }
 
 .card-box{
   background-color: #0f0e17;
-  width: calc(100% / 4);
+
+  /* calcolo la width delle cardbox */
+  --widthA: calc(100% - 90px);
+  width: calc(var(--widthA) / 3);
+
+  min-width: 300px;
   height: 100px;
-  margin-right: 30px;
-  margin-bottom: 50px;
+
+  margin: 0 15px 50px 15px;
+}
+
+.card-image{
+  height: 100%;
+}
+
+.card-image img{
+  height: 100%;
 }
