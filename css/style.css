@@ -1,0 +1,34 @@
+/* RESET & GENERAL*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Fredoka', sans-serif;
+}
+
+/* 
+  COLORI UTILI
+  color link: #4fbeca
+  backgrond color box: #0f0e17
+  color h1: #e53170
+
+  FONT: Fredoka
+*/
+
+/* UTILITY */
+
+/* HEADER */
+
+header p{
+  font-weight:bold;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 40px;
+  color: #e53170;
+}
+
+/* MAIN */
+
